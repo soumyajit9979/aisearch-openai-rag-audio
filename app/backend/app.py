@@ -8,7 +8,7 @@ from azure.identity import AzureDeveloperCliCredential, DefaultAzureCredential
 from dotenv import load_dotenv
 
 from ragtools import attach_rag_tools
-from rtmt import RTMiddleTier
+from rtmt import RTMiddleTier 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("voicerag")
